@@ -23,8 +23,9 @@ namespace Messaging_Web_app
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/tailwind.css",
+                      "~/Content/tailwind.min.css"));
+
         }
     }
 }

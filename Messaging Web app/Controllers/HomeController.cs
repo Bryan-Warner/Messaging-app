@@ -32,5 +32,11 @@ namespace Messaging_Web_app.Controllers
 
             return View();
         }
+        public ActionResult Login() 
+        {
+            ViewBag.Message = "My login page.";
+
+            return View();
+        }
     }
 }
